@@ -1,3 +1,4 @@
+/* design applied for the whole document */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -31,16 +32,16 @@ header div {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Takes away the dots from the list element */
 header div ul {
     list-style-type: none;
 }
-
+/* Aligns all elements on the same line */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+    /* Removes the blue link decoration from html element */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* This is CSS for the main image */
 .hero {
     height: 800px;
     width: 100%;
@@ -133,7 +134,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* CSS for panel no. 1 */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -142,7 +143,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* CSS for panel no. 2 */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -151,7 +152,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* CSS for panel no. 3 */
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,7 +161,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* The images for the side panel */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -187,7 +188,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* Footer CSS */
 .footer {
     padding: 30px;
     clear: both;

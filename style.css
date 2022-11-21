@@ -55,7 +55,7 @@ p {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-image: url("./challenge/starter/assets/images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -187,15 +187,4 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-/* Footer CSS */
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
